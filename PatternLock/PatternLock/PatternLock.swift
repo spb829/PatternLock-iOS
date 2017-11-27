@@ -1,6 +1,6 @@
 //
-//  PatternLocker.swift
-//  PatternLocker
+//  PatternLock.swift
+//  PatternLock
 //
 //  Created by Macbook Pro on 2017. 11. 27..
 //  Copyright © 2017년 Eric Park. All rights reserved.
@@ -8,22 +8,22 @@
 
 import UIKit
 
-/// PatternLocker Delegate
-public protocol PatternLockerDelegate: class {
+/// PatternLock Delegate
+public protocol PatternLockDelegate: class {
     
     /// Occurs when user ended to track pattern lock
     /// - Parameters:
     ///   - patternLock: instance of locker
     ///   - track: array of integers, which user tracked
-    func didPatternInput(patternLock: PatternLocker, track: [Int])
+    func didPatternInput(patternLock: PatternLock, track: [Int])
 }
 
 
 /// UI Element represent pattern lock
 @IBDesignable
-open class PatternLocker: UIControl {
+open class PatternLock: UIControl {
     
-    public weak var delegate: PatternLockerDelegate?
+    public weak var delegate: PatternLockDelegate?
     
     /// Default state image
     @IBInspectable
@@ -71,7 +71,7 @@ open class PatternLocker: UIControl {
 }
 
 /// MARK: Draw
-extension PatternLocker {
+extension PatternLock {
     
     open override func draw(_ rect: CGRect) {
         self.backgroundColor = UIColor.clear
@@ -122,7 +122,7 @@ extension PatternLocker {
     
 }
 /// MARK: Layout
-extension PatternLocker {
+extension PatternLock {
     private func updateLayoutConfiguration() {
         guard let dot = dot else {return}
         guard let _ = dotSelected else {return}
@@ -145,7 +145,7 @@ extension PatternLocker {
 }
 
 /// MARK: Tracking
-extension PatternLocker {
+extension PatternLock {
     
     open override func beginTracking(_ touch: UITouch, with event: UIEvent?) -> Bool {
         lockTrack.removeAll()

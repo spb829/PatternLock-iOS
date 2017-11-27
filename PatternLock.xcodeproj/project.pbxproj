@@ -11,17 +11,17 @@
 		072D5D7C1FCC317C007B43CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072D5D7A1FCC317C007B43CD /* Main.storyboard */; };
 		072D5D7E1FCC317C007B43CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072D5D7D1FCC317C007B43CD /* Assets.xcassets */; };
 		072D5D811FCC317C007B43CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072D5D7F1FCC317C007B43CD /* LaunchScreen.storyboard */; };
-		072D5D8D1FCC3261007B43CD /* PatternLocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072D5D8C1FCC3261007B43CD /* PatternLocker.swift */; };
+		072D5D8D1FCC3261007B43CD /* PatternLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072D5D8C1FCC3261007B43CD /* PatternLock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		072D5D731FCC317C007B43CD /* PatternLocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatternLocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		072D5D731FCC317C007B43CD /* PatternLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatternLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		072D5D761FCC317C007B43CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		072D5D7B1FCC317C007B43CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		072D5D7D1FCC317C007B43CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		072D5D801FCC317C007B43CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		072D5D821FCC317C007B43CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		072D5D8C1FCC3261007B43CD /* PatternLocker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternLocker.swift; sourceTree = "<group>"; };
+		072D5D8C1FCC3261007B43CD /* PatternLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternLock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +38,7 @@
 		072D5D6A1FCC317C007B43CD = {
 			isa = PBXGroup;
 			children = (
-				072D5D751FCC317C007B43CD /* PatternLocker */,
+				072D5D751FCC317C007B43CD /* PatternLock */,
 				072D5D741FCC317C007B43CD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,20 +46,20 @@
 		072D5D741FCC317C007B43CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				072D5D731FCC317C007B43CD /* PatternLocker.app */,
+				072D5D731FCC317C007B43CD /* PatternLock.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		072D5D751FCC317C007B43CD /* PatternLocker */ = {
+		072D5D751FCC317C007B43CD /* PatternLock */ = {
 			isa = PBXGroup;
 			children = (
 				072D5D821FCC317C007B43CD /* Info.plist */,
 				072D5D8A1FCC3238007B43CD /* Main */,
-				072D5D8B1FCC323D007B43CD /* PatternLocker */,
+				072D5D8B1FCC323D007B43CD /* PatternLock */,
 				072D5D881FCC3217007B43CD /* Supporting Files */,
 			);
-			path = PatternLocker;
+			path = PatternLock;
 			sourceTree = "<group>";
 		};
 		072D5D881FCC3217007B43CD /* Supporting Files */ = {
@@ -88,20 +88,20 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		072D5D8B1FCC323D007B43CD /* PatternLocker */ = {
+		072D5D8B1FCC323D007B43CD /* PatternLock */ = {
 			isa = PBXGroup;
 			children = (
-				072D5D8C1FCC3261007B43CD /* PatternLocker.swift */,
+				072D5D8C1FCC3261007B43CD /* PatternLock.swift */,
 			);
-			path = PatternLocker;
+			path = PatternLock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		072D5D721FCC317C007B43CD /* PatternLocker */ = {
+		072D5D721FCC317C007B43CD /* PatternLock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 072D5D851FCC317C007B43CD /* Build configuration list for PBXNativeTarget "PatternLocker" */;
+			buildConfigurationList = 072D5D851FCC317C007B43CD /* Build configuration list for PBXNativeTarget "PatternLock" */;
 			buildPhases = (
 				072D5D6F1FCC317C007B43CD /* Sources */,
 				072D5D701FCC317C007B43CD /* Frameworks */,
@@ -111,9 +111,9 @@
 			);
 			dependencies = (
 			);
-			name = PatternLocker;
+			name = PatternLock;
 			productName = PatternLocker;
-			productReference = 072D5D731FCC317C007B43CD /* PatternLocker.app */;
+			productReference = 072D5D731FCC317C007B43CD /* PatternLock.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +132,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 072D5D6E1FCC317C007B43CD /* Build configuration list for PBXProject "PatternLocker" */;
+			buildConfigurationList = 072D5D6E1FCC317C007B43CD /* Build configuration list for PBXProject "PatternLock" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -145,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				072D5D721FCC317C007B43CD /* PatternLocker */,
+				072D5D721FCC317C007B43CD /* PatternLock */,
 			);
 		};
 /* End PBXProject section */
@@ -168,7 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				072D5D8D1FCC3261007B43CD /* PatternLocker.swift in Sources */,
+				072D5D8D1FCC3261007B43CD /* PatternLock.swift in Sources */,
 				072D5D771FCC317C007B43CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,7 +335,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		072D5D6E1FCC317C007B43CD /* Build configuration list for PBXProject "PatternLocker" */ = {
+		072D5D6E1FCC317C007B43CD /* Build configuration list for PBXProject "PatternLock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				072D5D831FCC317C007B43CD /* Debug */,
@@ -344,7 +344,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		072D5D851FCC317C007B43CD /* Build configuration list for PBXNativeTarget "PatternLocker" */ = {
+		072D5D851FCC317C007B43CD /* Build configuration list for PBXNativeTarget "PatternLock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				072D5D861FCC317C007B43CD /* Debug */,
