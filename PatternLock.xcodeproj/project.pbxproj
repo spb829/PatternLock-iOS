@@ -12,6 +12,7 @@
 		072D5D7E1FCC317C007B43CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072D5D7D1FCC317C007B43CD /* Assets.xcassets */; };
 		072D5D811FCC317C007B43CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072D5D7F1FCC317C007B43CD /* LaunchScreen.storyboard */; };
 		072D5D8D1FCC3261007B43CD /* PatternLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072D5D8C1FCC3261007B43CD /* PatternLock.swift */; };
+		07D8B8481FD2B17700D9B258 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D8B8471FD2B17700D9B258 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		072D5D801FCC317C007B43CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		072D5D821FCC317C007B43CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		072D5D8C1FCC3261007B43CD /* PatternLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternLock.swift; sourceTree = "<group>"; };
+		07D8B8471FD2B17700D9B258 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				072D5D7A1FCC317C007B43CD /* Main.storyboard */,
+				07D8B8471FD2B17700D9B258 /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D8B8481FD2B17700D9B258 /* MainViewController.swift in Sources */,
 				072D5D8D1FCC3261007B43CD /* PatternLock.swift in Sources */,
 				072D5D771FCC317C007B43CD /* AppDelegate.swift in Sources */,
 			);
@@ -308,7 +312,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RD94QKXJBK;
-				INFOPLIST_FILE = PatternLocker/Info.plist;
+				INFOPLIST_FILE = PatternLock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Eric.Park.PatternLocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -323,7 +327,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RD94QKXJBK;
-				INFOPLIST_FILE = PatternLocker/Info.plist;
+				INFOPLIST_FILE = PatternLock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Eric.Park.PatternLocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
